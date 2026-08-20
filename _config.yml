@@ -23,7 +23,7 @@ repository               : "Joinulexemplify/LJT-Homepage"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : # filename of an avatar image placed in /images/, e.g. "profile.png" - left blank until a personal photo is added
   name             : "Junteng Liu"
   pronouns         : # example: "she/her"  
   bio              : "First-year Ph.D. candidate in Computer Science at the HKUST NLP Group. Research interests include LLM reasoning and reinforcement learning, hallucination in vision-language models, and LLM truthfulness and interpretability."
@@ -332,7 +332,7 @@ whitelist:
 #  - Archive page should exist at path when using Liquid method or you can
 #    expect broken links (especially with breadcrumbs enabled)
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <categories path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
